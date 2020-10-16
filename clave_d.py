@@ -114,7 +114,8 @@ class VentaComputadoras:
 
     def totalProcesadorIntel(self):
         for element in range(len(self.Computadora)):
-            for element2 in range(Computadora()): 
+            for element2 in range(Computadora()):
+                pass 
         return 0
 
     def totalRam16ConDescuento(self):
@@ -149,4 +150,4 @@ github_<nombre>_<codigo>.txt y subirlo a moodle
 
 # github url-->
 def getGithubUrl():
-    return ""
+    return "https://github.com/famo19/ParcialPython.git"
